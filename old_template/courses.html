@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bestinfo</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/bbf3eb47cf.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <section class="header-about">
+      <nav>
+        <a href=""><img src="img/bestinfo.jpg" alt="bestinfo" /></a>
+        <div class="nav-link not-close" id="navLInk">
+          <i class="fa-solid fa-x not-close" onclick="hidemenu()"></i>
+
+          <ul class="not-close">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="courses.html">Courses</a></li>
+            <li><a href="blogs.html">Blogs</a></li>
+            <li><a href="contact.html">Contact US</a></li>
+          </ul>
+        </div>
+        <i class="fa-solid fa-bars" onclick="showmenu()"></i>
+      </nav>
+    </section>
+    <section class="footer">
+      <h4>ABOUT US</h4>
+      <p>
+        MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+      </p>
+      <div class="social">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-linkedin"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-youtube"></i>
+      </div>
+      <p>
+        made by med yassine
+        <i class="fa fa-heart-o" style="color: red"></i> Thank you
+      </p>
+    </section>
+    <script>
+      var a = document.getElementById("navLInk");
+      function hidemenu() {
+        a.style.right = "-200px";
+      }
+      function showmenu() {
+        a.style.right = "0px";
+      }
+    </script>
+
+    <script src="./navbar.js"></script>
+
+  </body>
+</html>
